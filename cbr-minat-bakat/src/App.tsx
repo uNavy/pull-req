@@ -12,7 +12,7 @@ import Dashboard from "./pages/Dashboard";
 
 function App() {
   useEffect(() => {
-    console.log("Hello World...");
+    console.log("update...");
   }, []);
   
   return (
