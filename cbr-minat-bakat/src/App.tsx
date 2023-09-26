@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-// import { useState } from 'react'
+import { useEffect } from 'react';
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./components/layout/Layout";
@@ -11,7 +11,10 @@ import Dashboard from "./pages/Dashboard";
 // import OptionSelector from "./components/OptionSelector";
 
 function App() {
-
+  useEffect(() => {
+    console.log("Hello World...");
+  }, []);
+  
   return (
     <Layout>
       <Routes>
